@@ -2,7 +2,7 @@
 
 import { PORTFOLIO_DATA } from "@/constants/portfolio";
 import { SectionContainer } from "./SectionContainer";
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { Code2, Brain, Layout, Server, Database, Hammer, Cpu } from "lucide-react";
 
 const SKILL_CATEGORIES = [
@@ -14,7 +14,7 @@ const SKILL_CATEGORIES = [
   { name: "Developer Tools", icon: Hammer, key: "tools" },
 ];
 
-const containerVariants = {
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -24,7 +24,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { opacity: 0, scale: 0.9, y: 20 },
   visible: {
     opacity: 1,
