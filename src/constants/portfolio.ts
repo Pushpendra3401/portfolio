@@ -1,4 +1,6 @@
-export const PORTFOLIO_DATA = {
+import { PortfolioData } from "@/types/portfolio";
+
+export const PORTFOLIO_DATA: PortfolioData = {
   personal: {
     name: "Pushpendra Deegwal",
     role: "Full Stack Developer | AI & Software Developer",
