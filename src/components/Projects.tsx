@@ -14,6 +14,9 @@ import {
   Cpu,
   Bot,
   CheckSquare,
+  Mic,
+  Radio,
+  Building2,
 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
@@ -53,6 +56,66 @@ function ProjectGraphicPlaceholder({ title }: { title: string }) {
           <div className="text-xs font-mono text-slate-400 mb-2">React.js • Groq API • OpenAI • jsPDF</div>
           <div className="text-2xl sm:text-3xl font-black text-white">
             AI Content Assistant
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (title === "MuteChat") {
+    return (
+      <div className="w-full h-64 sm:h-80 rounded-3xl bg-gradient-to-tr from-purple-950 via-slate-900 to-indigo-950 border border-purple-500/30 flex flex-col justify-between p-8 relative overflow-hidden shadow-2xl">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-purple-500/20 blur-3xl rounded-full pointer-events-none" />
+        <div className="flex items-center justify-between z-10">
+          <span className="px-4 py-1.5 rounded-full bg-purple-500/20 text-purple-300 font-mono text-xs font-bold uppercase tracking-wider border border-purple-500/30">
+            Sub-Vocal Neural Chat
+          </span>
+          <Mic className="text-purple-400 animate-pulse" size={24} />
+        </div>
+        <div className="z-10">
+          <div className="text-xs font-mono text-slate-400 mb-2">Python • PyTorch • WebSockets • NLP</div>
+          <div className="text-2xl sm:text-3xl font-black text-white">
+            MuteChat
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (title === "Setu Voice AI") {
+    return (
+      <div className="w-full h-64 sm:h-80 rounded-3xl bg-gradient-to-tr from-emerald-950 via-slate-900 to-teal-950 border border-emerald-500/30 flex flex-col justify-between p-8 relative overflow-hidden shadow-2xl">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-emerald-500/20 blur-3xl rounded-full pointer-events-none" />
+        <div className="flex items-center justify-between z-10">
+          <span className="px-4 py-1.5 rounded-full bg-emerald-500/20 text-emerald-300 font-mono text-xs font-bold uppercase tracking-wider border border-emerald-500/30">
+            Whisper Speech Translation
+          </span>
+          <Radio className="text-emerald-400 animate-pulse" size={24} />
+        </div>
+        <div className="z-10">
+          <div className="text-xs font-mono text-slate-400 mb-2">Whisper AI • FastAPI • PyTorch • React</div>
+          <div className="text-2xl sm:text-3xl font-black text-white">
+            Setu Voice AI
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  if (title === "SUVIDHA") {
+    return (
+      <div className="w-full h-64 sm:h-80 rounded-3xl bg-gradient-to-tr from-amber-950 via-slate-900 to-slate-950 border border-amber-500/30 flex flex-col justify-between p-8 relative overflow-hidden shadow-2xl">
+        <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/20 blur-3xl rounded-full pointer-events-none" />
+        <div className="flex items-center justify-between z-10">
+          <span className="px-4 py-1.5 rounded-full bg-amber-500/20 text-amber-300 font-mono text-xs font-bold uppercase tracking-wider border border-amber-500/30">
+            Civic Utility Platform
+          </span>
+          <Building2 className="text-amber-400 animate-pulse" size={24} />
+        </div>
+        <div className="z-10">
+          <div className="text-xs font-mono text-slate-400 mb-2">Next.js • Node.js • Maps API • MongoDB</div>
+          <div className="text-2xl sm:text-3xl font-black text-white">
+            SUVIDHA
           </div>
         </div>
       </div>
