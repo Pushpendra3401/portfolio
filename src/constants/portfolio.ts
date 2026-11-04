@@ -73,40 +73,6 @@ export const PORTFOLIO_DATA: PortfolioData = {
       github: "https://github.com/Pushpendra3401/MuteChat",
       live: null,
     },
-    {
-      title: "Setu Voice AI",
-      description: "Voice-driven AI conversational bridge enabling real-time multilingual speech translation and automated voice query resolution.",
-      techStack: ["Python", "PyTorch", "Whisper AI", "FastAPI", "React.js", "REST APIs"],
-      features: [
-        "Real-time multilingual voice translation",
-        "Low-latency Whisper speech-to-text pipeline",
-        "Automated AI audio response generation",
-        "Interactive WebRTC audio streamer",
-      ],
-      github: "https://github.com/Pushpendra3401/Setu-Voice-AI",
-      live: null,
-    },
-    {
-      title: "SUVIDHA",
-      description: "Smart public utility and service accessibility platform for civic issue tracking and automated grievance routing.",
-      techStack: ["Next.js", "Node.js", "Express.js", "MongoDB", "Google Maps API", "Tailwind CSS"],
-      features: [
-        "Geotagged public grievance reporting",
-        "Automated municipal department ticket routing",
-        "Real-time issue status tracking dashboard",
-        "Citizen verification & analytics panel",
-      ],
-      github: "https://github.com/Pushpendra3401/SUVIDHA",
-      live: null,
-    },
-    {
-      title: "To-Do App",
-      description: "Interactive task management application.",
-      techStack: ["React.js", "HTML", "CSS", "JavaScript"],
-      features: ["Add tasks", "Delete tasks", "Mark tasks completed", "Clean and intuitive UI"],
-      github: "https://github.com/Pushpendra3401/to-do-App",
-      live: "https://pushpendra3401.github.io/to-do-App/",
-    },
   ],
   experience: [
     {
